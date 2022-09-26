@@ -1,4 +1,4 @@
-# Lets_code
+# Lets-code
 
 <table>
   <tr>
