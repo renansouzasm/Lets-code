@@ -1,0 +1,18 @@
+table {
+    background: #ccc;
+    color: #ccc;
+    line-height: 30px;
+    text-align: center;
+    width: 300px;
+}
+
+.cab {
+    background: #000033;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.cont {
+    background: #000066;
+    font-size: 14px;    
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+    <script>
+    window.onload=init;
+    </script>
+</head>
+<body>
+    <form id="calculadora">
+        <div class="visor">
+            <input type="text" name="res" id="res" value="" class="visor_input" readonly>
+        </div>
+        <div class="calc_linhas">
+            <button type="button" class="calc_botao_fun" id="btn_pow"  value="pow">x<sup>y</sup></button>
+            <button type="button" class="calc_botao_fun" id="btn_round"  value="round">round</button>
+            <button type="button" class="calc_botao_fun" id="btn_sqrt"  value="sqrt">&radic;</button>
+            <button type="button" class="calc_botao_op" id="btn_div"  value="/">÷</button>
+        </div>
+        <div class="calc_linhas">
+            <button type="button" class="calc_botao" id="btn_7" value="7">7</button>
+            <button type="button" class="calc_botao" id="btn_8" value="8">8</button>
+            <button type="button" class="calc_botao" id="btn_9" value="9">9</button>
+            <button type="button" class="calc_botao_op" id="btn_mul"  value="*">x</button>
+        </div>
+        <div class="calc_linhas">
+            <button type="button" class="calc_botao" id="btn_4" value="4">4</button>
+            <button type="button" class="calc_botao" id="btn_5" value="5">5</button>
+            <button type="button" class="calc_botao" id="btn_6" value="6">6</button>
+            <button type="button" class="calc_botao_op" id="btn_sub"  value="-">-</button>
+        </div>
+        <div class="calc_linhas">
+            <button type="button" class="calc_botao" id="btn_1" value="1">1</button>
+            <button type="button" class="calc_botao" id="btn_2" value="2">2</button>
+            <button type="button" class="calc_botao" id="btn_3" value="3">3</button>
+            <button type="button" class="calc_botao_op" id="btn_sum"  value="+">+</button>
+        </div>
+        <div class="calc_linhas">
+            <button type="button" class="calc_botao" id="btn_7" value="0">0</button>
+            <button type="button" class="calc_botao" id="btn_p" value=".">.</button>
+            <button type="button" class="calc_botao" id="btn_c" value="C">C</button>
+            <button type="button" class="calc_botao_res" id="btn_igual"  value="=">=</button>
+        </div>
+        <footer>
+        Programação Web - 2022
+        </footer>
+    </form>
+</body>
+</html>
